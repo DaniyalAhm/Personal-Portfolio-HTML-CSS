@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* CSS PROFILING DEFUALT for intial */
+        p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+  
+
+       #Personal {
+            list-style-type: none;
+        }
+
+        /* CSS PROFILING FOR MID SIZE PC AND TABLETS */
+        /* //TODO FOR CELLPHONE USE */
+    </style>
+
+    <link rel="stylesheet" type="text/css" media="(min-width: 417px) and (max-width: 799px)" href="Phone_sized.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 800px) and (max-width: 1299px)" href="Meduim_sized.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 1300px) " href="Default_Layout.css">
+
+
+    <script  src="Resume_Backend.js"></script>
+
+
+    <!-- Other head elements -->
+</head>
+
+<body>
+    <p class="Initial">
+        D.
+    </p>
+
+    <div id='game-board'></div>
+
+    <div class="line"></div>
+
+    <div class="Box"></div>
+
+
+    <img class="me" src="cover.png">
+    <img class="code" src="text.gif">
+    <img class="term" src="Terminal.gif">
+
+    <p class="Greeting">
+        Hi, I'm Daniyal
+    </p>
+
+    <p class="Des">
+        I am a 21-year-old undergraduate student studying Computer Science. I am from Houston,
+        Texas, and will be starting my third year at Boston University. I consider myself a
+        hardworking individual and I am currently looking for a job to help support myself and
+        involve myself more with my future career
+    </p>
+    <div class = "slider-menu">
+    <ul id="Personal">
+        <li><a class="Aboutme" href="Resume.html" onclick="About()">About me</a></li>
+        <li><a class="Projects" href="Project1.html" onclick="slider()" id="Personal Projects">Personal Projects</a></li>
+        <li><a class="Linkedin" href="https://www.linkedin.com/in/daniyal-ahmed-435a36280/" onclick="Projects()">MyLinkedIN</a></li>
+        <li><a class="Git" href="https://github.com/DaniyalAhm" onclick="slider()">Github</a></li>
+    </ul>
+
+    <button class="slider-toggle" onclick="toggleSliderMenu()">D.</button>
+
+
+
+</div>
+
+    <p class = "pro">
+        Proficient In:
+    </p>    
+
+    <ul class="Languages">
+        <li>C</li>
+        <li>Java</li>
+        <li>Assembly</li>
+        <li>Python</li>
+        <li>Git</li>
+        <li>Bash and Linux</li>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>   
+
+
+    <p class= "sk">
+        Skills:
+    </p>    
+
+    <ul class="Skills">
+        <li>Congenial</li>
+        <li>Determined</li>
+        <li>Multitasker</li>
+        <li>Great Researching Skills</li>
+    </ul>   
+
+    <p class = "cr">  &#169; Copyright 2023 All rights reserved</p>
+</body>
+</html>

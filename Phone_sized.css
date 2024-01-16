@@ -1,0 +1,223 @@
+    /* CSS rules for mobile layout */
+    body{
+       background-color: aliceblue ;
+       overflow-x: hidden; 
+       caret-color: transparent;
+
+
+   }
+
+   p.Initial {
+      color: transparent;
+  }
+  
+   img.me{
+       position: absolute;
+       top:600px;
+       left:10%;
+       width:300px;
+       border-radius: 200px;
+       margin-bottom: 700px;
+       padding-right: 50%;
+       
+       z-index: 0;
+
+   }
+   
+   .line {
+      border-bottom: 1px solid black;
+      position: relative;
+      top: 50px;
+      z-index: 10;
+  }
+   
+
+   p.Greeting{
+       position: absolute;
+       top:100px;
+       font-size: 50px;
+       text-decoration: underline;
+       text-decoration-thickness: 3px;
+       z-index:0 ;
+   
+
+
+   }
+
+
+   p.Des{
+       position: absolute;
+       top:200px;
+       font-size: 33px;
+       float: right;
+       margin-right: 20px;
+       margin-bottom: 50px;
+       z-index: 1;
+   }
+
+
+
+
+
+p.pro{
+   color: aliceblue;   
+   text-decoration: underline;
+   text-decoration-thickness: 1px;
+   font-size: 50px;
+   position: absolute;
+   top:970px;
+
+ 
+}
+
+
+.Languages{
+   color: aliceblue;   
+
+   position: absolute;
+   top:1050px;
+   font-size: 33px;
+   border: 50px;
+
+
+}
+
+.Box{
+   position: absolute;
+   
+   top:1000px;
+   width: 100%;
+   height: 700px;
+   background-color: black;
+   border-color: black;
+   right: 10px;
+
+
+
+ 
+}
+
+img.code{
+   position: absolute;
+   top:1400px;
+   left:0px;
+   width: 300px;
+
+}
+p.sk{
+   color: black;   
+   margin-top: 50px;
+   font-size: 50px;
+   position: absolute;
+   top:1700px;
+   text-decoration:underline;
+   text-decoration-thickness: 3px;
+
+}
+
+
+
+.Skills{
+    color: black;   
+
+   position: absolute;
+   top:1800px;
+   font-size: 33px;
+   width: 500px;
+   left: 0px;
+
+}
+
+.term{
+   position: absolute;
+   top:2100px;
+   left:0;
+   width: 500px;
+   border-radius: 10px;
+   margin-bottom: 50px;
+
+}
+
+a.Aboutme{
+   position: absolute;
+   top:160px;
+   text-decoration: none;
+   color: aliceblue;   
+
+   border-color: aliceblue;
+   border-width: 6px;
+   font-size: 30px;
+
+}
+
+a.Projects{
+   position: absolute;
+   text-decoration: none;
+   color: aliceblue;   
+
+   border-color: aliceblue;
+   border-width: 6px;
+   font-size: 30px;
+   top:220px;
+
+}
+a.Linkedin{
+   position: absolute;
+   top:280px;
+   text-decoration: none;
+   color: aliceblue;   
+
+   border-color: aliceblue;
+   border-width: 6px;
+   font-size: 30px;
+}
+
+a.Git{
+   position: absolute;
+   text-decoration: none;
+   color: aliceblue;   
+
+   border-color: aliceblue;
+   border-width: 6px;
+   font-size: 30px;
+   top:340px;
+
+}
+p.cr{
+   position: absolute;
+   top: 2500px;
+   color: black;
+
+}
+
+
+
+
+
+.slider-menu{
+   position: fixed;
+   top: 0;
+   left: -100%; /* Start with the menu hidden off-screen */
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.95); /* Adjust the alpha value for transparency */
+   transition: left 0.3s ease;
+   z-index: 6;
+ }
+
+ 
+.slider-toggle{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 100px;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+
+  }

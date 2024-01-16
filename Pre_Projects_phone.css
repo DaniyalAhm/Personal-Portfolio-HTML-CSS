@@ -1,0 +1,170 @@
+
+body{
+    background-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    caret-color: transparent;
+
+}
+
+
+
+p.Initial{
+display: none;
+
+}
+
+#game-board{    
+    display: none;
+
+}
+.line{
+    border-bottom: 2px solid aliceblue ;
+    position: absolute;
+    top:100px;
+    z-index:4;
+ 
+
+    
+}
+
+
+p.Greeting{
+    position: absolute;
+    top:130px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    z-index:0;
+
+}
+
+
+
+.food{
+display: none;
+}
+
+a{
+    font-family:'Times New Roman', Times, serif ;
+
+}
+
+a{
+    position: absolute;
+      left:20px;
+      font-weight: bold;
+
+}
+
+
+a.Aboutme{
+    position: absolute;
+    top:160px;
+    text-decoration: none;
+
+
+    color: black;
+    border-width: 6px;
+    font-size: 30px;
+   
+ 
+ }
+ 
+ a.Projects{
+    position: absolute;
+    text-decoration: none;
+    color: black;   
+
+    z-index: 1;
+
+    border-width: 6px;
+    font-size: 30px;
+    top:220px;
+ 
+ }
+ a.Linkedin{
+    position: absolute;
+    top:280px;
+    text-decoration: none;
+    color: black;   
+    border-color: black;
+    border-width: 6px;
+    font-size: 30px;
+
+
+ }
+ 
+ a.Git{
+    position: absolute;
+    text-decoration: none;
+    color: black;   
+
+
+    border-width: 6px;
+    font-size: 30px;
+    top:340px;
+ 
+ }
+ .snake{
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    left: 10%;
+}
+
+ 
+
+
+p.cr{
+    position: absolute;
+    bottom:100px;
+    z-index:5;
+    color: aliceblue;
+    }
+    
+
+.PlayButton{
+ display: none;
+}
+
+.slider-menu{
+    position: fixed;
+    top: 0;
+    left: -100%; /* Start with the menu hidden off-screen */
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); /* White with 50% transparency */
+    transition: left 0.3s ease;
+    z-index: 1;
+  }
+
+
+  
+ .slider-toggle{
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     padding: 0px;
+     width: 100px;
+     height: 100px;
+     background-color:transparent;
+     border: none;
+     cursor: pointer;
+     font-size: 50px;
+     font-family: 'Times New Roman', Times, serif;
+     font-weight: bold;
+     color: aliceblue;
+     
+     
+   }
+   
+.Des{
+ position: absolute;
+ top: 250px;   
+ font-size: 30px;
+ margin-top: 50px;
+
+}

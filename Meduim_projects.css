@@ -1,0 +1,112 @@
+
+body{
+    background-color: black;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    caret-color: transparent;
+
+}
+
+#game-board{    
+    display: none;
+}
+.line{
+    border-bottom: 2px solid aliceblue ;
+    position: absolute;
+    top:700px;
+    z-index:4;
+ 
+
+    
+}
+
+
+.snake{
+    position: absolute;
+    top: 100px;
+    z-index: 0;
+    left: 30%;
+}
+
+
+p.Greeting{
+    position: absolute;
+    top:130px;
+    font-size: 70px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    z-index:2;
+
+}
+
+
+
+
+
+a{
+position: absolute;
+text-decoration: none;
+color: aliceblue;   
+border:25px solid black;  
+border-color: black;
+background-color: black;
+font-size: 25px;
+top:0px;
+left:150px;
+z-index:2;
+
+
+font-weight: bold;
+}
+
+a.Projects{
+left:300px;
+z-index:2;
+}
+a.Linkedin{
+left:520px;
+z-index:2;
+
+}
+
+p.cr{
+position: absolute;
+top:-100%;
+z-index:2;
+color: aliceblue;
+}
+
+a.Linkedin{
+left:520px;
+z-index:2;
+
+}
+
+a.Git{
+left:700px;
+z-index:2;
+}
+
+
+
+.Des{
+position: absolute;
+top:250px;
+font-size: 40px;
+z-index:2;
+
+}
+
+.PlayButton{
+  display: none;
+}
+
+
+
+
+         
+.slider-toggle{
+display: none;
+}
