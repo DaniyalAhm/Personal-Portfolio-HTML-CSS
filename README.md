@@ -1,6 +1,7 @@
 # Daniyal Ahmed's Resume
 
 Welcome to the repository for Daniyal Ahmed's resume. This repository contains my professional resume in various formats for easy access and sharing.
+ <!-- DISPLAY=TRUE -->
 
 ## Table of Contents
 
